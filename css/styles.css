@@ -307,7 +307,7 @@ img {
 
 .format-descr {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .lists-subject {
@@ -329,11 +329,9 @@ img {
 /* Social links */
 .social-list {
   display: flex;
-  justify-content: space-between;
-
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 10px;
 }
 
 .social-link {
@@ -465,7 +463,7 @@ img {
 
 .descr-right {
   color: var(--element-color);
-  /* font-style: bold; */
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -542,11 +540,21 @@ img {
   gap: 30px;
 }
 
-.list:hover,
-.lust:focus {
+.link-photo {
+  display: block;
+}
+
+.link-photo:hover,
+.link-photo:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
+
+/* .list:hover,
+.lust:focus {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+} */
 
 .format-deccr-work {
   padding: 20px 24px;
